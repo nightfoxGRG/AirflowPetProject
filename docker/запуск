@@ -1,0 +1,11 @@
+docker compose -f docker-compose.yaml -p airflow_pet_project up -d
+
+
+путь для airflow
+http://localhost:8001/
+
+user: airflow
+password: airflow
+
+сгенерировать документацию dbt
+docker compose -f docker-compose.yaml -p airflow_pet_project exec airflow-worker bash -c "cd /opt/airflow/dbt && dbt docs generate --profiles-dir profiles"
