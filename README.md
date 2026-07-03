@@ -132,6 +132,7 @@ docker compose -f docker-compose.yaml -p airflow_pet_project \
 ```
 
 
+
 ---
 
 ## Тестовые данные (`data/`)
