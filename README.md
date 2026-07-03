@@ -131,6 +131,7 @@ docker compose -f docker-compose.yaml -p airflow_pet_project \
   exec airflow-worker bash -c "cd /opt/airflow/dbt && dbt docs generate --profiles-dir profiles"
 ```
 
+
 ---
 
 ## Тестовые данные (`data/`)
